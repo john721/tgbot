@@ -13,3 +13,12 @@
 - 廢到讓你想笑的陽春功能
 
 ![看起來像醬](screenshot.png)
+
+# 怎麼弄?
+1. 打開 Telegram, 加入 @BotFather, 或是點一下這裡 https://t.me/BotFather
+2. 和 BotFather 對話, 用指令 /newbot 可以新建一個機器人, 它會問這隻機器人基本設定.
+3. 完成之後, BotFather 會給你一個 Token, 長得像是醬子: <br />
+   1234567890:ABCDEF_abcdefghijklmnopqrstu-VWXYZA
+4. 把取得的 token 設為環境變數:<br />
+   export TELEGRAM_APITOKEN="1234567890:ABCDEF_abcdefghijklmnopqrstu-VWXYZA"
+5. ./run.sh
